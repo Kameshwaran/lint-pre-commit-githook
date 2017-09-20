@@ -7,10 +7,10 @@
   Possible languages are: ruby, javascript, typescript
 
 3. Install the linters
-  If you are ruby, run `gem install rubocop` command
-  If you are on javascript, then run `npm install -g eslint` command
-  If you are on typescript, then run `npm install -g tslint` command
-  You can skip the linter installation, if you have them already installed.
+    - If you are ruby, run `gem install rubocop` command
+    - If you are on javascript, then run `npm install -g eslint` command
+    - If you are on typescript, then run `npm install -g tslint` command
+    - You can skip the linter installation, if you have them already installed.
 
 4. Make the file executable by the running the below command.
  `chmod +x .git/hooks/pre-commit`
