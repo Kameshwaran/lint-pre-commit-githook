@@ -1,4 +1,4 @@
-## Setting up Git pre-commit hook to enforce TSLint styles
+## Setting up Git pre-commit hook to enforce lint on source code
 
 1. Copy the file `pre-commit` file from `git-hooks` directory to `.git/hooks` inside your project root directory by running the following command
  `cp git-hooks/pre-commit [Project root path]/.git/hooks/`
