@@ -1,7 +1,7 @@
 ## Setting up Git pre-commit hook to enforce LINT-ing on source code
 
 1. Copy the file `pre-commit` file from `git-hooks` directory to `.git/hooks` inside your project root directory by running the following command
- `cp git-hooks/pre-commit $yourProjectRoot/.git/hooks/`
+ `cp git-hooks/pre-commit [PROJECT ROOT DIRECTORY]/.git/hooks/`
 
 2. Open the `.git/hooks/pre-commit` file. Update the language in Line number:4.
   Possible languages are: ruby, javascript, typescript
